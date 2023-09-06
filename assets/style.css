@@ -49,19 +49,43 @@ nav a {
 }
 
 #intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
     height: 70vh;
     border-bottom: 5px solid rgb(193, 193, 193);
     border-top: 5px solid rgb(193, 193, 193);
+    background-image: url("img/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-matrix-background-with-digits-1-0-illustration-vector.jpg");
+    background-position: center;
 }
 
-#intro img {
+#background {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: blur(1px);
 }
 
-#photo {
-    
+#bio-pic {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(193, 193, 193);
+    background-color: black;
+    background-image: url("img/bio_pic_resized.png");
+    background-position: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
 }
+
+#bio {
+    width: 50%;
+    height: 70%;
+    background-color: black;
+    border-radius: 25px;
+    opacity: .8;
+}
+
