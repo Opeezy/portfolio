@@ -61,13 +61,6 @@ nav a {
     background-position: center;
 }
 
-#background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(1px);
-}
-
 #bio-pic {
     width: 400px;
     height: 400px;
@@ -82,10 +75,40 @@ nav a {
 }
 
 #bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 70%;
     background-color: black;
     border-radius: 25px;
     opacity: .8;
+}
+
+#bio h2, h3, p {
+    color: white;
+}
+
+#bio h2 {
+    flex-grow: 1;
+    font-size: 40px;
+}
+
+#bio p {
+    margin-right: 5%;
+    margin-left: 5%;
+    flex-grow: 2;
+    font-size: 20px;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+#buttons {
+    flex-grow: 1;
+}
+
+#buttons button{
+
 }
 
