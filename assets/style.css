@@ -201,7 +201,10 @@ nav a {
 }
 
 #horiseon {
-    visibility: hidden;
+    text-decoration: none;
+    font-size: 0px;
+    color: white;
+    transition: .5s;
 }
 
 #cover:hover {
@@ -214,7 +217,7 @@ nav a {
 }
 
 #cover:hover #horiseon {
-    visibility: visible;
+    font-size: 40px;
 }
 
 #other-projects {
@@ -246,29 +249,58 @@ nav a {
     width: 100%;
     height: 40vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
-#contacts div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.contact-box {
     width: 30%;
     height: 100%;
-    background-color: blue;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact-info {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    color: white;
+    margin-left: 2%;
 }
 
+#contact-info h1 {
+    margin: 0;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#contact-info p {
+    margin-bottom: 8%;
+    font-size: 15px;
+}
+
+#socials h1 {
+    margin: 0;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#social-links a {
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+#social-links a:hover {
+    color: aqua;
+}
 
 
 
