@@ -1,6 +1,6 @@
 # Chris Openshaw - Portfolio
 
-![Link to site]()
+![Link to site](https://opeezy.github.io/portfolio/)
 
 ## Description
 
