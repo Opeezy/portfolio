@@ -86,29 +86,53 @@ nav a {
     opacity: .8;
 }
 
-#bio h2, h3, p {
+#bio h2 {
+    text-align: center;
+    width: 100%;
     color: white;
 }
 
 #bio h2 {
-    flex-grow: 1;
+    margin: 0;
+    height: 20%;
     font-size: 40px;
 }
 
-#bio p {
-    margin-right: 5%;
-    margin-left: 5%;
-    flex-grow: 2;
+#info-and-button {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#info-and-button p {
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    color: white;
     font-size: 20px;
     flex-wrap: wrap;
     line-height: 1.5;
 }
 
-#buttons {
-    flex-grow: 1;
+#info-and-button button {
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(94, 94, 255);
+    opacity: 1;
+    transition: .5s;
 }
 
-#buttons button{
-
+#info-and-button button:hover {
+    background-color: rgb(94, 94, 255);
 }
+
+#learn {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
 
