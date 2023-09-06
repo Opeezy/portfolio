@@ -134,13 +134,13 @@ nav a {
     width: 130px;
     height: 40px;
     border-radius: 25px;
-    background-color: rgb(94, 94, 255);
+    background-color: rgb(0, 170, 255);
     opacity: 1;
     transition: .5s;
 }
 
 #info-and-button button:hover {
-    background-color: rgb(38, 38, 255);
+    background-color: rgb(0, 127, 190);
 }
 
 #learn {
@@ -201,6 +201,7 @@ nav a {
 }
 
 #cover {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -221,7 +222,6 @@ nav a {
 }
 
 #horiseon {
-    text-decoration: none;
     font-size: 0px;
     color: white;
     transition: .5s;
