@@ -8,6 +8,12 @@ html, body {
     background-color: black;
 }
 
+.span-color {
+    color: aqua;
+}
+
+/* Header section */
+
 header {
     width: 100%;
     height: 50px;
@@ -49,12 +55,12 @@ nav a {
     margin-right: 20px;
 }
 
-.links:hover span{
+.links:hover .links-span{
     padding-right: 5px;
     padding-left: 5px;
 }
 
-
+/* Section with pic and description */
 
 #intro {
     display: flex;
@@ -91,7 +97,7 @@ nav a {
     height: 70%;
     background-color: black;
     border-radius: 25px;
-    opacity: .8;
+    opacity: .9;
 }
 
 #bio h2 {
@@ -134,7 +140,7 @@ nav a {
 }
 
 #info-and-button button:hover {
-    background-color: rgb(94, 94, 255);
+    background-color: rgb(38, 38, 255);
 }
 
 #learn {
@@ -142,6 +148,8 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About me section */
 
 #about-me {
     display: flex;
@@ -156,7 +164,19 @@ nav a {
 
 #about-me h1 {
     font-size: 50px;
+    margin-top: 5%;
+    margin-top: 7%;
 }
+
+#about-me p {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+}
+
+/* Projects section */
 
 #projects {
     display: flex;
@@ -244,6 +264,8 @@ nav a {
 .projects:hover {
     background-color: rgb(80, 80, 80);
 }
+
+/* Footer section */
 
 #contacts {
     width: 100%;
